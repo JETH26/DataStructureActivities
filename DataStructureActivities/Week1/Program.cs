@@ -19,12 +19,17 @@ namespace Week1
         /// <returns></returns>
         public static int AddDigits(int n)
         {
-            // todo: do your magic here! :)
+            int num = 0;
+            
+            while (n != 0){
+                sum = sum + n % 10;
+                n = n / 10;
+            }
 
             return 0;
         }
 
-        public static int LargestNumber(int n)
+        /*public static int LargestNumber(int n)
         {
             // todo: do your magic here! :)
 
@@ -43,6 +48,6 @@ namespace Week1
             // todo: do your magic here! :)
 
             return 0;
-        }
+        }*/
     }
 }
